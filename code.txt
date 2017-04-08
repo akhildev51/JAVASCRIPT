@@ -1,0 +1,89 @@
+/*
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<style>
+.alert {
+    padding: 10px;
+    background-color: #ffdddd;
+    color: black;
+    margin-bottom: 5px;
+	margin-top: 5px;
+	border-left: 6px solid #f44336;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+</style>
+</button>
+</head>
+<body>
+
+<!---...............................................-->
+<div class="w3-row-padding">
+
+<div class="w3-third">
+<pre>
+#include stdio.h	
+void main()	
+{	
+printf("Hello, World!");	
+}
+</pre>
+</div>
+
+<div class="w3-third">
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  This line is pre processor directory ; It contains the "printf()" function
+</div>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  Function decleration
+</div>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  Starting of brace
+</div>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  For displaying "Hello world"
+</div>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  Every opend braces should be closed
+
+</div>
+</div>
+
+<div class="w3-third">
+<img src="tut.gif" width =200 height = 200">
+</div>
+
+</div>
+<script>
+setTimeout(function one(){ alert("This line is pre processor directory ; It contains the printf()"); }, 4000);
+
+setTimeout(function two(){ alert("Function decleration"); }, 8000);
+
+setTimeout(function thr(){ alert("Starting of brace"); }, 12000);
+
+setTimeout(function fou(){ alert("For displaying Hello world"); }, 16000);
+
+setTimeout(function fiv(){ alert("Every opend braces should be closed"); }, 20000);
+</script>
+
+</body>
+</html>
+*/
